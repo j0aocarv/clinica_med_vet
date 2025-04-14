@@ -1,0 +1,51 @@
+body {
+    background-color: #003300; /* fundo padrão */
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .sobre-section {
+    background-color: #003300;
+    background-image: url('../img/background-patas.png'); /* imagem com fundo de patinhas */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .text-warning {
+    color: #D3E900 !important; /* amarelo do título */
+  }
+  
+  .cachorro-img {
+    max-width: 80%;
+  }
+
+  .servicos-section {
+    background-color: #002900;
+  }
+  
+  .servicos-section .card-body p {
+    margin: 0;
+    font-weight: 500;
+  }
+  .estrutura-section {
+    background-color: #003d00;
+  }
+  
+  .estrutura-img {
+    border: 3px solid #b3cc00;
+    border-radius: 10px;
+    padding: 4px;
+  }
+  .contato-section {
+    background-color: #003000;
+  }
+  
+  .rodape {
+    background-color: #002200;
+    font-size: 14px;
+    border-top: 1px solid #004400;
+  }
+    
+
+  
