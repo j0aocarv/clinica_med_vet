@@ -17,68 +17,70 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- css -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100"
-    >
-      <div class="container justify-content-center">
-        <ul class="navbar-nav gap-5">
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="#sobre">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="#servicos">Serviços</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="#estrutura"
-              >Estrutura</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="#contato">Contato</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100" data-aos="flip-left" data-aos-duration="2000">
+  <div class="container">
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
+      <ul class="navbar-nav gap-4">
+        <li class="nav-item">
+          <a class="nav-link text-white fw-bold" href="#sobre">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fw-bold" href="#servicos">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fw-bold" href="#estrutura">Estrutura</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fw-bold" href="#contato">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
 
     <!-- Banner principal -->
-    <header
-      class="hero d-flex align-items-center"
-      style="
-        background-image: url('assets/img/foto-med-vet.png');
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-      "
-    >
+    <header class="hero d-flex align-items-center" >
       <!-- você pode inserir conteúdo se quiser aqui -->
     </header>
+    
 
     <!-- Sobre -->
-    <section id="sobre" class="sobre-section py-5 text-white position-relative">
+    <section id="sobre" class="sobre-section py-5 text-white position-relative" data-aos="zoom-in-up"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000" >
       <div class="container">
         <div class="row align-items-center">
           <!-- Texto -->
           <div class="col-md-6 mb-4 mb-md-0">
-            <h1 class="fw-bold text-warning">
+            <h1 class="fw-bold text-warning" data-aos="flip-left" data-aos-duration="3000" >
               Clínica Veterinária<br />Do UNIFEB
             </h1>
-            <p class="mt-3">
+            <p class="mt-3" data-aos="flip-left" data-aos-duration="3000">
               Lorem ipsum dolor sit amet consectetur. Donec nullam nisi commodo
               nulla. Leo tellus sollicitudin dolor ultricies velit eu. Cursus
               pretium nisi tincidunt sagittis mauris. Mauris in sapien mauris
               eget.
             </p>
-            <a href="#contato" class="btn btn-light mt-4 px-4 py-2 fw-semibold"
+            <a href="#contato" class="btn btn-light mt-4 px-4 py-2 fw-semibold" data-aos="flip-left" data-aos-duration="3000"
               >Entre em contato</a
             >
           </div>
           <!-- Imagem do cachorro -->
-          <div class="col-md-6 text-center">
+          <div class="col-md-6 text-center" data-aos="zoom-in-left" data-aos-duration="1000">
             <img
               src="assets/img/doguin.png"
               alt="Cachorro"
@@ -91,7 +93,7 @@
     <!-- Serviços Oferecidos -->
     <section id="servicos" class="servicos-section py-5 text-white text-center">
       <div class="container">
-        <h2 class="fw-bold text-warning mb-4">Serviços Oferecidos</h2>
+        <h2 class="fw-bold text-warning mb-4" data-aos="flip-left" data-aos-duration="2000">Serviços Oferecidos</h2>
         <div class="row justify-content-center">
           <!-- Card 1 -->
           <div class="col-6 col-md-3 mb-4">
@@ -102,8 +104,11 @@
                   alt="Clínica Médica"
                   class="mb-3"
                   width="50"
+                  data-aos="zoom-out-right"
+                  data-aos-duration="3000"
                 />
-                <p>Clínica Médica</p>
+                <p data-aos="zoom-out-right"
+                data-aos-duration="3000">Clínica Médica</p>
               </div>
             </div>
           </div>
@@ -116,8 +121,11 @@
                   alt="Clínica Cirúrgica"
                   class="mb-3"
                   width="50"
+                  data-aos="zoom-out-right"
+                  data-aos-duration="3000"
                 />
-                <p>Clínica Cirúrgica</p>
+                <p data-aos="zoom-out-right"
+                data-aos-duration="3000">Clínica Cirúrgica</p>
               </div>
             </div>
           </div>
@@ -130,8 +138,12 @@
                   alt="Laboratório Clínico"
                   class="mb-3"
                   width="50"
+                  data-aos="zoom-out-right"
+                  data-aos-duration="3000"
                 />
-                <p>Laboratório Clínico</p>
+                <p
+                data-aos="zoom-out-right"
+                  data-aos-duration="3000">Laboratório Clínico</p>
               </div>
             </div>
           </div>
@@ -144,8 +156,12 @@
                   alt="Radiologia e Ultrassonografia"
                   class="mb-3"
                   width="50"
+                  data-aos="zoom-out-right"
+                  data-aos-duration="3000"
                 />
-                <p>Radiologia e Ultrassonografia</p>
+                <p
+                data-aos="zoom-out-right"
+                  data-aos-duration="3000">Radiologia e Ultrassonografia</p>
               </div>
             </div>
           </div>
@@ -155,7 +171,7 @@
     <!-- Estrutura -->
     <section id="estrutura" class="estrutura-section py-5 text-white">
       <div class="container">
-        <h2 class="text-center fw-bold text-warning mb-5">Estrutura</h2>
+        <h2 class="text-center fw-bold text-warning mb-5" data-aos="flip-up">Estrutura</h2>
 
         <!-- Bloco 1 -->
         <div class="row align-items-center mb-5">
@@ -164,11 +180,12 @@
               src="assets/img/foto-estrutura2.png"
               alt="Foto da clínica"
               class="img-fluid estrutura-img"
+              data-aos="fade-right" data-aos-duration="1000"
             />
           </div>
           <div class="col-md-6">
-            <p class="fw-bold">Lorem ipsum dolor sit amet consectetur.</p>
-            <p>
+            <p class="fw-bold" data-aos="fade-right" data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur.</p>
+            <p data-aos="fade-right" data-aos-duration="3000">
               Fermentum turpis donec gravida scelerisque commodo quis feugiat
               consectetur. Eget tincidunt pretium velit dolor ut. Iaculis
               eleifend dui purus sed consectetur augue nunc. Quisque at egestas
@@ -184,11 +201,12 @@
               src="assets/img/foto-estrutura2.png"
               alt="Foto da clínica"
               class="img-fluid estrutura-img"
+              data-aos="fade-left" data-aos-duration="1000"
             />
           </div>
           <div class="col-md-6">
-            <p class="fw-bold">Lorem ipsum dolor sit amet consectetur.</p>
-            <p>
+            <p class="fw-bold" data-aos="fade-left" data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur.</p>
+            <p data-aos="fade-left" data-aos-duration="3000">
               Fermentum turpis donec gravida scelerisque commodo quis feugiat
               consectetur. Eget tincidunt pretium velit dolor ut. Iaculis
               eleifend dui purus sed consectetur augue nunc. Quisque at egestas
@@ -204,11 +222,12 @@
               src="assets/img/foto-estrutura2.png"
               alt="Foto da clínica"
               class="img-fluid estrutura-img"
+              data-aos="fade-right" data-aos-duration="1000"
             />
           </div>
           <div class="col-md-6">
-            <p class="fw-bold">Lorem ipsum dolor sit amet consectetur.</p>
-            <p>
+            <p class="fw-bold" data-aos="fade-right" data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur.</p>
+            <p data-aos="fade-right" data-aos-duration="1000">
               Fermentum turpis donec gravida scelerisque commodo quis feugiat
               consectetur. Eget tincidunt pretium velit dolor ut. Iaculis
               eleifend dui purus sed consectetur augue nunc. Quisque at egestas
@@ -221,20 +240,27 @@
     <!-- Contato -->
     <section id="contato" class="contato-section py-5 text-white">
       <div class="container text-center">
-        <h2 class="fw-bold text-warning mb-4">Contato</h2>
+        <h2 class="fw-bold text-warning mb-4" data-aos="flip-up">Contato</h2>
 
-        <p><strong>Endereço:</strong> Lorem ipsum dolor sit amet consecte</p>
-        <p><strong>Agendamento:</strong> Lorem ipsum dolor sit amet consecte</p>
-        <p><strong>Horário de funcionamento:</strong> das 13h às 18h.</p>
+        <p data-aos="flip-up"><strong>Endereço:</strong> Lorem ipsum dolor sit amet consecte</p>
+        <p data-aos="flip-up"><strong>Agendamento:</strong> Lorem ipsum dolor sit amet consecte</p>
+        <p data-aos="flip-up"><strong>Horário de funcionamento:</strong> das 13h às 18h.</p>
 
-        <a href="#contato" class="btn btn-light mt-4">Entre em contato</a>
+        <a href="#contato" class="btn btn-light mt-4" data-aos="flip-up">Entre em contato</a>
       </div>
     </section>
     <!-- Rodapé -->
-    <footer class="text-center py-3 text-white rodape">
+    <footer class="text-center py-3 text-white rodape" >
       <p class="mb-0">Copyright © 2025 UNIFEB. Todos os direitos reservados.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+    
   </body>
 </html>
